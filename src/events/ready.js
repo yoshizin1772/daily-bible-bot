@@ -19,7 +19,7 @@ module.exports = {
 
         console.log("✔ Bot iniciado com sucesso");
 
-    cron.schedule("12 17 * * *", async () => {
+    cron.schedule("00 08 * * *", async () => {
         const data = await Versiculo()
         console.log('✔ versiculo armazenado e sendo enviado')
 

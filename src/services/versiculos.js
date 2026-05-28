@@ -11,7 +11,6 @@ async function Versiculo(){
     await page.goto("https://www.bibliaonline.com.br/acf")
     console.log('✔ Site aberto')
 
-
     const verse = await page.$eval(
     ".t",
     el => el.textContent
